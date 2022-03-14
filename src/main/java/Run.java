@@ -12,7 +12,7 @@ public class Run {
         Country england = new Country("England", 'E');
         Country italy = new Country("Italy", 'I');
 
-        Market busniess = new Market("business", List.of(poland, norway, italy));
+        Market business = new Market("business", List.of(poland, norway, italy));
         Market cargo = new Market("cargo", List.of(poland, norway, england));
         Market publicTransport = new Market("publicTransport", List.of(germany, england, italy));
         Market privateTransport = new Market("privateTransport", List.of(poland, england, germany));
@@ -44,18 +44,18 @@ public class Run {
         List<Car> cars = new ArrayList<>(15);
 
         cars.add(new Car(producent1, true, cargo, dimension1, Car.SEGEMENT_MEDIUM, italy));
-        cars.add(new Car(producent3, false, busniess, dimension2, Car.SEGEMENT_PREMIUM, poland));
+        cars.add(new Car(producent3, false, business, dimension2, Car.SEGEMENT_PREMIUM, poland));
         cars.add(new Car(producent7, false, gov, dimension3, Car.SEGEMENT_STANDRAD, germany));
         cars.add(new Car(producent6, true, publicTransport, dimension4, Car.SEGEMENT_STANDRAD, england));
         cars.add(new Car(producent2, true, privateTransport, dimension4, Car.SEGEMENT_PREMIUM, norway));
         cars.add(new Car(producent8, false, cargo, dimension5, Car.SEGEMENT_MEDIUM, italy));
-        cars.add(new Car(producent9, true, busniess, dimension6, Car.SEGEMENT_PREMIUM, poland));
+        cars.add(new Car(producent9, true, business, dimension6, Car.SEGEMENT_PREMIUM, poland));
         cars.add(new Car(producent3, false, publicTransport, dimension7, Car.SEGEMENT_STANDRAD, germany));
         cars.add(new Car(producent5, false, privateTransport, dimension8, Car.SEGEMENT_PREMIUM, norway));
-        cars.add(new Car(producent2, true, busniess, dimension9, Car.SEGEMENT_MEDIUM, italy));
+        cars.add(new Car(producent2, true, business, dimension9, Car.SEGEMENT_MEDIUM, italy));
         cars.add(new Car(producent4, false, gov, dimension10, Car.SEGEMENT_MEDIUM, poland));
         cars.add(new Car(producent10, true, cargo, dimension2, Car.SEGEMENT_PREMIUM, germany));
-        cars.add(new Car(producent7, false, busniess, dimension3, Car.SEGEMENT_STANDRAD, italy));
+        cars.add(new Car(producent7, false, business, dimension3, Car.SEGEMENT_STANDRAD, italy));
         cars.add(new Car(producent1, true, publicTransport, dimension8, Car.SEGEMENT_STANDRAD, poland));
         cars.add(new Car(producent4, false, publicTransport, dimension7, Car.SEGEMENT_PREMIUM, poland));
 
