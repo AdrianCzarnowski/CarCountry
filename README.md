@@ -1,2 +1,2 @@
-# CarFactory
-Please try my new program :) !
+# CarCountry
+Please try my new program in Java.
