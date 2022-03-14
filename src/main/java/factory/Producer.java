@@ -1,11 +1,11 @@
 package factory;
 
-public class Producent {
+public class Producer {
 
     private String model;
     private String type;
 
-    public Producent(String model, String type) {
+    public Producer(String model, String type) {
         this.model = model;
         this.type = type;
     }
