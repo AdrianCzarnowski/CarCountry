@@ -4,15 +4,15 @@ public class Dimension {
 
     private int high;
     private int width;
-    private int tankCapacity;
+    private int trankCapacity;
 
-    public Dimension(int high, int widht, int tankCapacity){
+    public Dimension(int high, int widht, int trankCapacity){
         this.high = high;
         this.width = widht;
-        this.tankCapacity = tankCapacity;
+        this.trankCapacity = trankCapacity;
     }
 
-    public int getTankCapacity() {
-        return tankCapacity;
+    public int getTrankCapacity() {
+        return trankCapacity;
     }
 }

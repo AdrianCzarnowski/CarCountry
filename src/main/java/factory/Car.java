@@ -31,7 +31,7 @@ public class Car {
     }
 
     public boolean checkCondition() {
-        return (producent.getModel().equals("BMW")) && (isAutomaticGear) && (dimension.getTankCapacity() > 300);
+        return (producent.getModel().equals("BMW")) && (isAutomaticGear) && (dimension.getTrankCapacity() > 300);
     }
 
     public static void check(List<Car> cars) {
