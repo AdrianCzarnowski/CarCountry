@@ -37,7 +37,7 @@ public class Car {
     public static void check(List<Car> cars) {
         for (Car car : cars) {
             if (car.checkCondition())
-                System.out.println(car.country.getCountryName() + " " + car.country.getCountrySign());
+                System.out.println(car.country.getCountryName() + " - " + car.country.getCountrySign());
         }
 
     }
