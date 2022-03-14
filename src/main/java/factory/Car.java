@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Car {
 
-    public static final String SEGEMENT_PREMIUM = "premium";
-    public static final String SEGEMENT_MEDIUM = "medium";
-    public static final String SEGEMENT_STANDRAD = "standard";
-    private static final List<String> SEGMENTS = Arrays.asList(SEGEMENT_PREMIUM, SEGEMENT_MEDIUM, SEGEMENT_STANDRAD);
+    public static final String SEGMENT_PREMIUM = "premium";
+    public static final String SEGMENT_MEDIUM = "medium";
+    public static final String SEGMENT_STANDARD = "standard";
+    private static final List<String> SEGMENTS = Arrays.asList(SEGMENT_PREMIUM, SEGMENT_MEDIUM, SEGMENT_STANDARD);
 
     Producent producent;
     Market market;
