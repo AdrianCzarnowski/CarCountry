@@ -13,7 +13,7 @@ public class Market {
         this.name = name;
         this.countries = countries;
 
-        if (countries.size() < 3 || countries.size() == 0 ) {
+        if (countries.size() < a || countries.size() == 0 ) {
             System.out.println("Your object is not supported. Market have to 3 countries as minimum");
             throw new IllegalArgumentException();
         }

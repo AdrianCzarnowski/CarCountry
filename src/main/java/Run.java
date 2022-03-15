@@ -16,7 +16,7 @@ public class Run {
         Market cargo = new Market("cargo", List.of(poland, norway, england));
         Market publicTransport = new Market("publicTransport", List.of(germany,poland,italy));
         Market privateTransport = new Market("privateTransport", List.of(poland, england, germany));
-        Market gov = new Market("gov", List.of(norway, england, italy));
+        Market gov = new Market("gov", List.of(norway, england,italy));
 
         Dimension dimension1 = new Dimension(15, 156, 350);
         Dimension dimension2 = new Dimension(16, 165, 340);
