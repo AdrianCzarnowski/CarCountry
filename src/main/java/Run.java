@@ -14,7 +14,7 @@ public class Run {
 
         Market business = new Market("business", List.of(poland, norway, italy));
         Market cargo = new Market("cargo", List.of(poland, norway, england));
-        Market publicTransport = new Market("publicTransport", List.of(germany, england, italy));
+        Market publicTransport = new Market("publicTransport", List.of(germany,poland,italy));
         Market privateTransport = new Market("privateTransport", List.of(poland, england, germany));
         Market gov = new Market("gov", List.of(norway, england, italy));
 
