@@ -30,8 +30,8 @@ public class Car {
         this.country = country;
     }
 
-    public boolean checkCondition() {
-        return (producer.getModel().equals("BMW")) && (isAutomaticGear) && (dimension.getTrunkCapacity() > 300);
+    private boolean checkCondition() {
+        return (producer.getModel().equals("BMW")) && (isAutomaticGear) && (dimension.getTrunkCapacity() > 1300);
     }
 
     public static void check(List<Car> cars) {
@@ -39,6 +39,7 @@ public class Car {
             if (car.checkCondition())
                 System.out.println(car.country.getCountryName() + " - " + car.country.getCountrySign());
         }
+        System.out.println("0 objects avaliable");
 
     }
 }
